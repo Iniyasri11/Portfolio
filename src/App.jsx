@@ -10,7 +10,7 @@ import Experience from './sections/Experience.jsx'
 
 function App() {
   return (
-    <div className="min-h-screen bg-transparent text-[#311b2f] pt-28">
+    <div className="min-h-screen bg-transparent text-[#311b2f] pt-20">
       <Navbar />
       <main>
         <Hero />
