@@ -161,7 +161,7 @@ function Hero() {
 
             <div className="relative z-10 h-[280px] w-[280px] overflow-hidden rounded-full md:h-[360px] md:w-[360px]">
               <img
-                src="public/profile.jpeg"
+                src="/profile.jpeg"
                 alt={personalInfo.firstName}
                 className="h-full w-full object-cover"
               />
