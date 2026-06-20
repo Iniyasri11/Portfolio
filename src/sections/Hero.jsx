@@ -145,7 +145,8 @@ function Hero() {
           >
             {/* Main Circle */}
 
-            <div className="absolute h-[300px] w-[300px] rounded-full bg-[rgba(248,161,180,0.18)] md:h-[380px] md:w-[380px]" />
+            <div className="absolute h-[400px] w-[400px] rounded-full bg-[rgba(248,161,180,0.18)] md:h-[450px] md:w-[450px]" />
+            <div className="absolute translate-x-10 h-[400px] w-[400px] rounded-full bg-[rgba(248,161,180,0.18)] md:h-[500px] md:w-[500px] md:translate-x-15" />
 
             {/* Decorative Elements */}
 
@@ -159,11 +160,11 @@ function Hero() {
 
             {/* Image */}
 
-            <div className="relative z-10 h-[280px] w-[280px] overflow-hidden rounded-full md:h-[360px] md:w-[360px]">
+            <div className="relative z-10 h-[300px] w-[280px] overflow-hidden rounded-full md:h-[400px] md:w-[400px]">
               <img
-                src="/profile.jpeg"
+                src="public/profile.jpeg"
                 alt={personalInfo.firstName}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover scale-100 transition-all duration-300 hover:scale-95"
               />
             </div>
 
