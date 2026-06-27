@@ -363,7 +363,7 @@ ol {
 }
 
 @supports (animation-timeline: view()) {
-  main .glass-card{
+  main section .glass-card{
     animation: cardViewFade both ease-out;
     animation-timeline: view();
     animation-range: entry 0% exit 100%;
